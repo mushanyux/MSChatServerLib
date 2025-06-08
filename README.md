@@ -40,5 +40,8 @@ Curve25519算法，生成密钥对、计算加密密钥。
 #### ip
 查询服务器、客户端ip地址。根据ip查询地址（使用高德api）。
 
+#### json
+obj和json，json和map的转换。
+
 #### md5
 MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密。
