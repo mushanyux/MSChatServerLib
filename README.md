@@ -45,3 +45,8 @@ obj和json，json和map的转换。
 
 #### md5
 MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密。
+
+#### page
+页结构体
+
+
