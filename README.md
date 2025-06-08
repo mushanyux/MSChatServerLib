@@ -24,3 +24,12 @@ substr, MapToQueryParamSort, Sign
 
 #### md5
 MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
+
+#### decimal
+精确的小数计算。
+
+四舍五入，银行家舍入等多种舍入。
+
+序列化反序列化。
+
+要看懂得复习一下数电的IEEE 754标准。
