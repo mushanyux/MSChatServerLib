@@ -16,3 +16,11 @@ aes的保障大概是因为域之类的东西，当然可以在程序员的视�
 
 详细的移步博客（详细文章待施工）
 
+#### base62
+十进制转62进制
+
+#### common
+substr, MapToQueryParamSort, Sign
+
+#### md5
+MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
