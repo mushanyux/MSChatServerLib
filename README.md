@@ -32,7 +32,10 @@ substr, MapToQueryParamSort, Sign
 要看懂得复习一下数电的IEEE 754标准。
 
 #### dh
-Curve25519算法，生成密钥对、计算加密密钥
+Curve25519算法，生成密钥对、计算加密密钥。
+
+#### hash
+使用CRC32通过一个字符串生成一个32位的整数。
 
 #### md5
-MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
+MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密。
