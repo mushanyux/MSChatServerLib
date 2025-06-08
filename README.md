@@ -22,9 +22,6 @@ aes的保障大概是因为域之类的东西，当然可以在程序员的视�
 #### common
 substr, MapToQueryParamSort, Sign
 
-#### md5
-MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
-
 #### decimal
 精确的小数计算。
 
@@ -33,3 +30,9 @@ MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
 序列化反序列化。
 
 要看懂得复习一下数电的IEEE 754标准。
+
+#### dh
+Curve25519算法，生成密钥对、计算加密密钥
+
+#### md5
+MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密
