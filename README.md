@@ -24,6 +24,9 @@
 #### sqlite
 新建会话并迁移
 
+### keylock
+关键字锁
+
 ### log
 日志管理，使用Uber开源的zap库
 
