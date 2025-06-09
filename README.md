@@ -30,6 +30,9 @@
 #### options
 日志配置
 
+### redis
+Redis相关的操作，比如 Set, Del, Hget 等。
+
 ### util
 字符串，时间，加密等基础工具
 
