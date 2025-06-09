@@ -1,6 +1,14 @@
 package util
 
-import "strings"
+import (
+	"math/rand/v2"
+	"strings"
+	"time"
+)
+
+func GenerUUID() string {
+	return strings.Replace(NewV4().String(), "-", "", -1)
+}
 
 func isUpper(b byte) bool {
 	return 'A' <= b && b <= 'Z'
@@ -42,4 +50,34 @@ func CamelName(name string) string {
 	name = strings.Replace(name, "_", " ", -1)
 	name = strings.Title(name)
 	return strings.Replace(name, " ", "", -1)
+}
+
+// RemoveRepeatedElement 移除重复元素
+func RemoveRepeatedElement(arr []string) (newArr []string) {
+	newArr = make([]string, 0)
+	for i := 0, i < len(arr); i ++ {
+		repeat := false
+		for j := i + 1; j < len(arr); j ++ {
+			if arr[i] == arr[j] {
+				repeat = true
+				break
+			}
+		}
+		if (!repeat) {
+			newArr = append(newArr, arr[i])
+		}
+	}
+	return
+}
+
+// GetRandomStrinh 生成指定长度的随机字符串
+func GetRandomStrinh(num int) string {
+	str := "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	bytes := []byte(str)
+	result := []byte{}
+	r := rand.New(rand.NewSource(time.Now().UnixNano()))
+	for i := 0; i < num; i ++ {
+		result = append(result, bytes[r.Intn(len(bytes))])
+	}
+	return string(result)
 }
