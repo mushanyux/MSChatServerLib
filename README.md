@@ -4,6 +4,15 @@
 
 ## pkg
 
+### log
+日志管理，使用Uber开源的zap库
+
+#### logger
+多种级别的日志输出
+
+#### options
+日志配置
+
 ### util
 字符串，时间，加密等基础工具
 
@@ -71,3 +80,6 @@ sha256加密
 
 #### uuid
 uuid相关。使用的是 Maxim Bublis 开源的 uuid 库。
+
+#### yuan_cent
+调用decimal实现元-分互转
