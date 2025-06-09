@@ -63,5 +63,11 @@ sha256加密
 
 驼峰转下划线，下划线转驼峰，获取uuid，随机生成
 
+#### stringbuffer
+实现Append，传入interface{}，写入到Buffer
+
+#### time
+时间格式化处理。
+
 #### uuid
 uuid相关。使用的是 Maxim Bublis 开源的 uuid 库。
