@@ -55,7 +55,13 @@ MD5加密，SHA1加密，使用sha1作为哈希的HMAC加密。
 #### sha
 sha256加密
 
+#### sign
+为一个map生成签名。
+
 #### string
 字符串处理，包括：
 
 驼峰转下划线，下划线转驼峰
+
+#### uuid
+uuid相关。使用的是 Maxim Bublis 开源的 uuid 库。
