@@ -4,6 +4,11 @@
 
 ## pkg
 
+### cache
+
+#### cache
+缓存接口
+
 ### log
 日志管理，使用Uber开源的zap库
 
