@@ -42,6 +42,9 @@ Redis相关的操作，比如 Set, Del, Hget 等。
 ### markdown
 将markdown转换为html。
 
+### msevent
+事件定义
+
 ### mshook
 grpc生成的代码
 
