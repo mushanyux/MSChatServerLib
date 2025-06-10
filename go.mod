@@ -11,6 +11,7 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.19
 	github.com/panjf2000/ants/v2 v2.11.3
 	github.com/rubenv/sql-migrate v1.8.0
+	github.com/sendgrid/rest v2.6.9+incompatible
 	github.com/sourcegraph/syntaxhighlight v0.0.0-20170531221838-bd320f5d308e
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.39.0
@@ -24,5 +25,6 @@ require (
 	github.com/onsi/gomega v1.37.0 // indirect
 	github.com/sourcegraph/annotate v0.0.0-20160123013949-f4cad6c6324d // indirect
 	go.uber.org/multierr v1.11.0 // indirect
+	golang.org/x/net v0.37.0 // indirect
 	golang.org/x/sync v0.11.0 // indirect
 )
