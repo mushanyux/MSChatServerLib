@@ -42,6 +42,18 @@ Redis相关的操作，比如 Set, Del, Hget 等。
 ### markdown
 将markdown转换为html。
 
+### pool
+池，实现了工作者，任务队列，分发器
+
+#### dispatcher
+分发器内部使用 ans.Pool, 负载过高时输出提示
+
+#### queue
+任务队列，使用锁和条件变量实现 push, pop 等操作
+
+#### worker
+任务接口，工作者接口，开始、结束工作
+
 ### util
 字符串，时间，加密等基础工具
 
