@@ -4,11 +4,17 @@
 
 ## common
 
-### page
-页格式的封装
-
 ### cache
 对 pkg/cache 的封装
+
+### constant
+常量定义，包括群，频道，社区等定义
+
+### msg
+消息相关的常量定义，根据两个id生成虚拟id和还原
+
+### page
+页格式的封装
 
 ## pkg
 
