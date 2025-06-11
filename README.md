@@ -52,7 +52,7 @@ grpc生成的代码
 主要是对 gin 的封装，还包括一些认证、封装
 
 ### msrsa
-生成 rsa 签名
+用 rsa 密钥生成 md5 签名
 
 ### network
 get, put, post 等操作
