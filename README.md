@@ -48,6 +48,9 @@ Redis相关的操作，比如 Set, Del, Hget 等。
 ### mshook
 grpc生成的代码
 
+### mshttp
+主要是对 gin 的封装，还包括一些认证、封装
+
 ### network
 get, put, post 等操作
 
