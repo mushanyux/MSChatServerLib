@@ -1,4 +1,4 @@
-module github.com/MSChatServerLib
+module github.com/mushanyux/MSChatServerLib
 
 go 1.23.3
 

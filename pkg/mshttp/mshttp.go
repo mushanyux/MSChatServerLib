@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/MSChatServerLib/pkg/cache"
-	"github.com/MSChatServerLib/pkg/log"
 	"github.com/gin-gonic/gin"
+	"github.com/mushanyux/MSChatServerLib/pkg/cache"
+	"github.com/mushanyux/MSChatServerLib/pkg/log"
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 )

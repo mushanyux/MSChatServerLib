@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MSChatServerLib/pkg/redis"
+	"github.com/mushanyux/MSChatServerLib/pkg/redis"
 )
 
 type RedisCache struct {

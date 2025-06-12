@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	imlog "github.com/MSChatServerLib/pkg/log"
-	"github.com/MSChatServerLib/pkg/util"
+	imlog "github.com/mushanyux/MSChatServerLib/pkg/log"
+	"github.com/mushanyux/MSChatServerLib/pkg/util"
 	"go.uber.org/zap"
 )
 

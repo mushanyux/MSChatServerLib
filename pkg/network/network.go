@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/MSChatServerLib/pkg/util"
+	"github.com/mushanyux/MSChatServerLib/pkg/util"
 	"github.com/sendgrid/rest"
 )
 
