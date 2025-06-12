@@ -16,6 +16,14 @@
 ### page
 页格式的封装
 
+## config
+
+### asynctask
+主要是对machinery/v2的封装, 支持创建，注册，发送任务
+
+### config
+各种配置，比如缓存、文件、推送、系统账户等
+
 ## pkg
 
 ### cache
