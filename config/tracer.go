@@ -15,7 +15,7 @@ import (
 	"go.uber.org/zap"
 )
 
-// Tracer Tracer
+// Tracer mschat Tracer
 type Tracer struct {
 	jaegerconfig jaegercfg.Configuration
 	cfg          *Config

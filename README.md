@@ -51,6 +51,14 @@
 ### tracer
 主要是对jaeger库的封装，以及空标签的定义
 
+## model
+
+### channel
+响应数据的模型定义
+
+### respond
+一些接口的模型定义
+
 ## pkg
 
 ### cache
@@ -117,6 +125,9 @@ get, put, post 等操作
 
 #### worker
 任务接口，工作者接口，开始、结束工作
+
+### register
+注册模块，路由定义
 
 ### util
 字符串，时间，加密等基础工具
@@ -188,3 +199,9 @@ uuid相关。使用的是 Maxim Bublis 开源的 uuid 库。
 
 #### yuan_cent
 调用decimal实现元-分互转
+
+### wait
+等待-触发机制，可以注册id，向所有注册了的发数据
+
+## server
+启动server，http，https服务等
