@@ -372,8 +372,8 @@ func New() *Config {
 		// ---------- 短信服务 ----------
 		SMSProvider: SMSProviderAliyun,
 
-		// ---------- wukongim ----------
-		MuShanIMIM: struct {
+		// ---------- mushanim ----------
+		MuShanIM: struct {
 			APIURL       string
 			ManagerToken string
 		}{

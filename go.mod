@@ -4,6 +4,8 @@ go 1.23.3
 
 require (
 	github.com/RichardKnop/machinery/v2 v2.0.13
+	github.com/RussellLuo/timingwheel v0.0.0-20220218152713-54845bda3108
+	github.com/bwmarrin/snowflake v0.3.0
 	github.com/eapache/queue v1.1.0
 	github.com/gin-gonic/gin v1.10.1
 	github.com/go-redis/redis v6.15.9+incompatible
@@ -11,6 +13,7 @@ require (
 	github.com/gocraft/dbr/v2 v2.7.7
 	github.com/gomarkdown/markdown v0.0.0-20250311123330-531bef5e742b
 	github.com/mattn/go-sqlite3 v1.14.19
+	github.com/olivere/elastic v6.2.37+incompatible
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/panjf2000/ants/v2 v2.11.3
 	github.com/rubenv/sql-migrate v1.8.0
@@ -18,6 +21,8 @@ require (
 	github.com/sourcegraph/syntaxhighlight v0.0.0-20170531221838-bd320f5d308e
 	github.com/spf13/cast v1.7.1
 	github.com/spf13/viper v1.20.1
+	github.com/tidwall/gjson v1.18.0
+	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	go.uber.org/zap v1.27.0
 	golang.org/x/crypto v0.39.0
 	google.golang.org/grpc v1.73.0
@@ -33,6 +38,7 @@ require (
 	cloud.google.com/go/iam v1.4.0 // indirect
 	cloud.google.com/go/pubsub v1.47.0 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
+	github.com/HdrHistogram/hdrhistogram-go v1.1.2 // indirect
 	github.com/RichardKnop/logging v0.0.0-20190827224416-1a693bdd4fae // indirect
 	github.com/aws/aws-sdk-go v1.37.16 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
@@ -42,6 +48,7 @@ require (
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
+	github.com/fortytw2/leaktest v1.3.0 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
@@ -64,11 +71,13 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
+	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kelseyhightower/envconfig v1.4.0 // indirect
 	github.com/klauspost/compress v1.9.5 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.7 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
+	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
@@ -85,7 +94,10 @@ require (
 	github.com/spf13/afero v1.12.0 // indirect
 	github.com/spf13/pflag v1.0.6 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
+	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
 	github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc // indirect
@@ -97,6 +109,7 @@ require (
 	go.opentelemetry.io/otel v1.35.0 // indirect
 	go.opentelemetry.io/otel/metric v1.35.0 // indirect
 	go.opentelemetry.io/otel/trace v1.35.0 // indirect
+	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
