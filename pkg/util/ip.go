@@ -3,6 +3,7 @@ package util
 import (
 	"errors"
 	"fmt"
+	"io"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -12,15 +13,19 @@ import (
 
 // GetExternalIP 获取服务器外网IP
 func GetExternalIP() (string, error) {
-	resp, err := http.Get("https://ipw.cn/api/ip/myip")
+	resp, err := http.Get("https://ifconfig.io/ip")
 	if err != nil {
 		return "", err
 	}
 	defer resp.Body.Close()
 
-	resultBytes, err := ioutil.ReadAll(resp.Body)
+	resultBytes, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return "", err
+	}
+	if resp.StatusCode != http.StatusOK {
+		return "", errors.New("get external ip failed")
+
 	}
 	return strings.TrimSpace(string(resultBytes)), nil
 }
